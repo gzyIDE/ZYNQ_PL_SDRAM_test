@@ -1,0 +1,40 @@
+axi_uartlite :
+  name    : axi_uartlite0
+  vendor  : xilinx.com
+  version : 2.0
+  conf :
+    CONFIG.C_BAUDRATE             : 115200
+    CONFIG.C_S_AXI_ACLK_FREQ_HZ_d : 200
+
+clk_wiz :
+  name    : clk_wiz0
+  vendor  : xilinx.com
+  version : 6.0
+  conf :
+    CONFIG.CLKIN1_JITTER_PS           : 80.0
+    CONFIG.CLKOUT1_JITTER             : 109.241
+    CONFIG.CLKOUT1_PHASE_ERROR        : 96.948
+    CONFIG.CLKOUT1_REQUESTED_OUT_FREQ : 200.000
+    CONFIG.CLKOUT2_JITTER             : 124.615
+    CONFIG.CLKOUT2_PHASE_ERROR        : 96.948
+    CONFIG.CLKOUT2_REQUESTED_OUT_FREQ : 100.000
+    CONFIG.CLKOUT2_USED               : true
+    CONFIG.CLKOUT3_JITTER             : 156.334
+    CONFIG.CLKOUT3_PHASE_ERROR        : 96.948
+    CONFIG.CLKOUT3_REQUESTED_OUT_FREQ : 33.33333
+    CONFIG.CLKOUT3_USED               : true
+    CONFIG.MMCM_CLKFBOUT_MULT_F       : 8.000
+    CONFIG.MMCM_CLKIN1_PERIOD         : 8.000
+    CONFIG.MMCM_CLKOUT0_DIVIDE_F      : 5.000
+    CONFIG.MMCM_CLKOUT1_DIVIDE        : 10
+    CONFIG.MMCM_CLKOUT2_DIVIDE        : 30
+    CONFIG.MMCM_DIVCLK_DIVIDE         : 1
+    CONFIG.NUM_OUT_CLKS               : 3
+    CONFIG.PRIM_IN_FREQ               : 125.000
+
+processing_system7 :
+  name    : processing_system7A
+  vendor  : xilinx.com
+  version : 5.5
+  conf    :
+    CONFIG.PCW_USE_S_AXI_HP0  : 1
